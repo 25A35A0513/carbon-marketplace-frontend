@@ -16,7 +16,7 @@ import MarketplacePage from './pages/buyer/MarketplacePage';
 // ── Seller
 import SellerDashboard  from './pages/seller/SellerDashboard';
 import CreateProjectPage from './pages/seller/CreateProjectPage';
-import MyProjectsPage from './pages/seller/MyprojectsPage';
+import MyProjectsPage from './pages/seller/Myprojectspage';
 import SalesPage from './pages/seller/Salespage';
 
 
