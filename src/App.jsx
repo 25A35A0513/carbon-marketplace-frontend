@@ -16,8 +16,8 @@ import MarketplacePage from './pages/buyer/MarketplacePage';
 // ── Seller
 import SellerDashboard  from './pages/seller/SellerDashboard';
 import CreateProjectPage from './pages/seller/CreateProjectPage';
-import MyProjectsPage from './pages/seller/Myprojectspage';
-import SalesPage from './pages/seller/Salespage';
+import MyProjectsPage from './pages/seller/MyProjectsPage';
+import SalesPage from './pages/seller/SalesPage';
 
 
 // ── Admin
@@ -25,7 +25,7 @@ import AdminDashboard from './pages/admin/AdminDashboard';
 import AdminUsersPage from './pages/admin/AdminUsersPage';
 import AdminTransactionsPage from './pages/admin/AdminTransactionsPage';
 import AdminProjectsPage from './pages/admin/AdminProjectsPage';
-import AdminContactsPage from './pages/admin/Admincontactspage';
+import AdminContactsPage from './pages/admin/AdminContactsPage';
 
 
 import LandingPage from './pages/LandingPage';
