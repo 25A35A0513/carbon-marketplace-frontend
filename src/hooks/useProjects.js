@@ -23,7 +23,7 @@ export const useProjects = (params = {}) => {
 
   useEffect(() => { fetchProjects(); }, []); // eslint-disable-line
 
-  return { projects, pagination, loading, error, refetch: fetchProjects };
+  return { projects, pagination, loading, error, refetch: () => fetchProjects() };
 };
 
 export const useProject = (id) => {
