@@ -4,33 +4,33 @@ import { ToastProvider } from './context/ToastContext';
 import ProtectedRoute    from './components/layout/ProtectedRoute';
 
 // ── Public pages (imported from the full artifact or standalone pages)
-import LoginPage    from './pages/auth/LoginPage';
-import RegisterPage from './pages/auth/RegisterPage';
+import LoginPage    from './pages/auth/LoginPage.jsx';
+import RegisterPage from './pages/auth/RegisterPage.jsx';
 
 // ── Buyer
-import BuyerDashboard from './pages/buyer/BuyerDashboard';
-import PortfolioPage from './pages/buyer/PortfolioPage';
-import TransactionsPage from './pages/buyer/TransactionsPage';
-import MarketplacePage from './pages/buyer/MarketplacePage';
+import BuyerDashboard from './pages/buyer/BuyerDashboard.jsx';
+import PortfolioPage from './pages/buyer/PortfolioPage.jsx';
+import TransactionsPage from './pages/buyer/TransactionsPage.jsx';
+import MarketplacePage from './pages/buyer/MarketplacePage.jsx';
 
 // ── Seller
-import SellerDashboard  from './pages/seller/SellerDashboard';
-import CreateProjectPage from './pages/seller/CreateProjectPage';
-import MyProjectsPage from './pages/seller/MyProjectsPage';
-import SalesPage from './pages/seller/SalesPage';
+import SellerDashboard  from './pages/seller/SellerDashboard.jsx';
+import CreateProjectPage from './pages/seller/CreateProjectPage.jsx';
+import MyProjectsPage from './pages/seller/MyProjectsPage.jsx';
+import SalesPage from './pages/seller/SalesPage.jsx';
 
 
 // ── Admin
-import AdminDashboard from './pages/admin/AdminDashboard';
-import AdminUsersPage from './pages/admin/AdminUsersPage';
-import AdminTransactionsPage from './pages/admin/AdminTransactionsPage';
-import AdminProjectsPage from './pages/admin/AdminProjectsPage';
-import AdminContactsPage from './pages/admin/AdminContactsPage';
+import AdminDashboard from './pages/admin/AdminDashboard.jsx';
+import AdminUsersPage from './pages/admin/AdminUsersPage.jsx';
+import AdminTransactionsPage from './pages/admin/AdminTransactionsPage.jsx';
+import AdminProjectsPage from './pages/admin/AdminProjectsPage.jsx';
+import AdminContactsPage from './pages/admin/AdminContactsPage.jsx';
 
 
-import LandingPage from './pages/LandingPage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+import LandingPage from './pages/LandingPage.jsx';
+import AboutPage from './pages/AboutPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
 /**
  * Lazy-loaded placeholders for pages not yet scaffolded.
  * Replace each with the real component as you build them.
