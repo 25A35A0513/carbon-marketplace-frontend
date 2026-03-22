@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../../utils/api';
-import { fmt, fmtN, CURRENCY_SYMBOL } from '../../utils/currency';
+import { fmt, fmtN, CURRENCY_SYMBOL } from '../../utils/Currency';
 import DashboardLayout from '../../components/layout/DashboardLayout';
 
 const fmtDate = (d) => new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });

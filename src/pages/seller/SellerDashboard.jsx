@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../../utils/api';
 import DashboardLayout from '../../components/layout/DashboardLayout';
-import { fmt, fmtN, CURRENCY_SYMBOL } from '../../utils/currency';
+import { fmt, fmtN, CURRENCY_SYMBOL } from '../../utils/Currency';
 
 export default function SellerDashboard() {
   const [sales,    setSales]    = useState(null);

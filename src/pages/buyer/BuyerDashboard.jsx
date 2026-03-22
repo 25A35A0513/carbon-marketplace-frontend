@@ -3,7 +3,7 @@ import { usePortfolio } from '../../hooks/useTransactions';
 import { useMyTransactions } from '../../hooks/useTransactions';
 import { Link } from 'react-router-dom';
 import DashboardLayout from '../../components/layout/DashboardLayout';
-import { fmt } from '../../utils/currency';
+import { fmt } from '../../utils/Currency';
 
 
 export default function BuyerDashboard() {

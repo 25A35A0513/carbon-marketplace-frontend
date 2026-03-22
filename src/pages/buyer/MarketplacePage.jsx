@@ -4,7 +4,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useToast } from '../../context/ToastContext';
 import { useProjects } from '../../hooks/useProjects';
 import api from '../../utils/api';
-import { fmt, fmtN } from '../../utils/currency';
+import { fmt, fmtN } from '../../utils/Currency';
 
 const IMPACT_TYPES = [
   'Forest Conservation', 'Renewable Energy', 'Blue Carbon',

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import api from '../../utils/api';
 import { useToast } from '../../context/ToastContext';
 import DashboardLayout from '../../components/layout/DashboardLayout';
-import { fmt, fmtN, CURRENCY_SYMBOL } from '../../utils/currency';
+import { fmt, fmtN, CURRENCY_SYMBOL } from '../../utils/Currency';
 
 
 export default function AdminDashboard() {
