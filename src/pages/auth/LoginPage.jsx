@@ -65,6 +65,15 @@ export default function LoginPage() {
         <div style={styles.divider} />
 
         {/* Demo quick-fill */}
+         <p style={styles.demoLabel}>Quick demo access</p>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          {DEMOS.map(d => (
+            <button key={d.role} style={{ ...styles.demoBtn, borderColor: d.color + '44', color: d.color, background: d.color + '11' }}
+              onClick={() => setForm({ email: d.email, password: 'demo123' })}>
+              {d.role}
+            </button>
+          ))}
+        </div>
         
 
         <p style={styles.switchText}>
