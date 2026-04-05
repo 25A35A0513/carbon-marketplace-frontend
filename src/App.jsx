@@ -25,7 +25,7 @@ import AdminDashboard from './pages/admin/AdminDashboard.jsx';
 import AdminUsersPage from './pages/admin/AdminUsersPage.jsx';
 import AdminTransactionsPage from './pages/admin/AdminTransactionsPage.jsx';
 import AdminProjectsPage from './pages/admin/AdminProjectsPage.jsx';
-import AdminContactsPage from './pages/admin/AdminContactsPage.jsx';
+import AdminContactsPage from './pages/admin/Admincontactspage.jsx';
 
 
 import LandingPage from './pages/LandingPage.jsx';
