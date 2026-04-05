@@ -43,7 +43,7 @@ export default function LoginPage() {
         <div style={styles.logoWrap}>
           <div style={styles.logoIcon}>🌱</div>
           <h1 style={styles.logoText}>Carbon Marketplace</h1>
-          <p style={styles.subtext}>Sign in to your account</p>
+          <p style={styles.subtext}>Sign in your account</p>
         </div>
 
         {error && <div style={styles.errorBox}>⚠️ {error}</div>}
